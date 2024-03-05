@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('image/p.jpg') center/cover fixed; /* Adicione a URL da imagem da galáxia */
+    color: #fff; /* Cor do texto para melhor visibilidade na imagem de fundo */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para melhorar a legibilidade */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente para melhorar a legibilidade */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.planet-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1e6da9;
+}
